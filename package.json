@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "wp-env start && ./pma-docker.sh",
+    "stop": "./pma-docker.sh && wp-env stop"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.10.0"
+  }
+}
